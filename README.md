@@ -6,7 +6,7 @@ A web-app to automatically update my reading list every day.
 I consume short-form content (blogs, news, essays) in two ways -
 
 1. Through emails from my favorite publications and authors
-2. By discovering interesting stuff on social media, podcasts or through recommendations and saving the links to [Pocket](https://getpocket.com/){:target="_blank"}. Then going through them at once.
+2. By discovering interesting stuff on social media, podcasts or through recommendations and saving the links to <a href="https://getpocket.com/" target="_blank">Pocket</a>. Then going through them at once.
 
 But this was haphazard and I was never satisfied with this approach. There were two problems:
 
