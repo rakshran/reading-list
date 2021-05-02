@@ -138,7 +138,7 @@ def main(event=None, context=None):
     #After the loop has prepared the email list, fetch last 24 hours' data from Pocket API        
     try:
     	d = datetime.today() - timedelta(days=1)
-    	d = timestamp = datetime.timestamp(d)
+    	d = datetime.timestamp(d)
     	parameters = {"consumer_key": YOUR_KEY ,"access_token": YOUR_TOKEN,  "sort": "oldest", "since": d}
     	pocket_response = requests.get("https://getpocket.com/v3/get", params=parameters)
 
