@@ -17,7 +17,7 @@ But this was haphazard and I was never satisfied with this approach. There were 
 
 I figured I needed an elegant solution to solve this problem. My reading material for the day should lie neatly in one place so that I could scan through everything at once, prioritise based on the time I had at hand and pick the most important stuff for reading. This list should dynamically get updated so that it just stores the reading material that I have received or saved that day.
 
-I built a [web-app](https://www.rakshitranjan.com/reader.html){:target="_blank"} that does this. Here is how it works:
+I built a [web-app](https://www.rakshitranjan.com/reader.html) that does this. Here is how it works:
 
 1. I used AWS-Lambda for my serverless backend to write a program that fetches emails received using the Gmail API and articles added to my Pocket list through the Pocket GET API (both in the last 24 hrs). 
 2. The email bodies are saved as html files in a public s3 bucket which gives them their unique urls using which anyone can view those emails.
